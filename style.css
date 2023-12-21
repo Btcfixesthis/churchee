@@ -1,0 +1,537 @@
+
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+  
+/*.top-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    background-color: #101010;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: -60px;
+    
+
+}
+
+.top-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+
+.top-nav a:hover {
+    background-color: yellowgreen;
+}
+
+
+.top-nav a:active {
+    background-color: #678983;
+}*/
+
+.logo{
+    display: flex;
+    flex: 1;
+    background-color:#101010;
+    /*padding-left: 85px;*/
+    justify-content: center;
+ 
+}
+
+
+
+
+.ft-page{
+    color: white;
+    background-image: url('./Images/church.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 100vh;
+
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color-ch{
+    color: antiquewhite;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+button{
+    padding: 20px 20px 20px 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    border: yellowgreen;
+    text-transform: uppercase;
+
+}
+
+/*Page 2*/
+
+.life{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    
+}
+
+.life1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.p-class{
+    min-width: 300px;
+}
+
+.emp{
+    overflow: hidden;
+}
+
+.people{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+     
+}
+
+.page2{
+    display: flex;
+    flex: 1;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #101010;
+    
+}
+
+#section2{
+    background-color: #101010;
+}
+
+.img1{
+    display: flex;
+    flex: 1;
+}
+
+.img2{
+    display: flex;
+    flex: 1;
+}
+
+.img3{
+    display: flex;
+    flex: 1;
+}
+
+.images{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #101010;
+}
+
+a img{
+    width: 100%;
+}
+
+.text-style{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+
+
+/*SECTION 4*/
+
+.section4{
+    background-color: #101010;
+    padding-bottom: 50px;
+}
+
+.distinct{
+    background-color: #101010;
+}
+
+.church-dist{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.image-cap1, .image-cap2, .image-cap3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cap1, .cap2, .cap3{
+    color: white;
+    text-align: center;
+}
+
+.cap1-head, .cap2-head, .cap3-head{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.distinct1{
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 100px 100px;
+}
+
+.image2-cap21, .image2-cap22, .image2-cap23{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cap21, .cap22, .cap23{
+    color: white;
+    text-align: center;
+}
+
+.cap21-head, .cap22-head, .cap23-head{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.distinct2{
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 100px 100px;
+}
+
+/*SECTION 5*/
+
+.section5{
+    display: flex;
+    height: 100vh;
+    background-color: #101010;
+
+}
+
+.section5 video{
+    width: 100%;
+}
+
+/*SECTION 6*/
+
+.ponder{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    min-width: 400px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px){
+    .page2{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-left: 180px;
+        
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .ft-page{
+        padding: 50px 50px 50px -50px ;
+        margin-left: -90px;
+        padding-bottom: 30px;
+        text-align: center;
+        height: 60vh;
+    }
+
+    .distinct1, .distinct2{
+        flex-direction: column;
+    }
+
+    .ponder{
+        font-size: 1rem;
+    }
+
+    .church-dist{
+        font-size: 1.5rem;
+    }
+
+
+
+} 
+
+@media (min-width: 600px){
+    .page2{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-left: 180px;
+        
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .ft-page{
+        padding: 50px 50px 50px -50px ;
+        margin-left: -90px;
+        padding-bottom: 30px;
+        text-align: center;
+        height: 60vh;
+    }
+
+    .distinct1, .distinct2{
+        flex-direction: column;
+    }
+
+    .ponder{
+        font-size: 1rem;
+    }
+
+    .church-dist{
+        font-size: 1.5rem;
+    }
+
+
+
+} 
+
+@media (min-width: 768px){
+    .page2{
+        flex-direction: ;
+        gap: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .life1{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .ft-page{
+        padding: 50px 50px 50px 50px ;
+        text-align: center;
+        height: 70vh;
+    }
+
+
+    .distinct1, .distinct2{
+        flex-direction: column;
+    }
+
+    .ponder{
+        font-size: 1rem;
+    }
+
+    .church-dist{
+        font-size: 1.5rem;
+    }
+   
+}
+
+@media (max-width: 768px){
+    .page2{
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .life1{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .ft-page{
+        padding: 50px 50px 50px 50px ;
+        text-align: center;
+        height: 70vh;
+    }
+
+    .distinct1, .distinct2{
+        flex-direction: column;
+    }
+
+    .ponder{
+        font-size: 1rem;
+    }
+
+    .church-dist{
+        font-size: 1.5rem;
+    }
+   
+}
+
+
+@media (min-width: 992px){
+    .page2{
+        flex-direction: row;
+        gap: 10px;
+        padding-bottom: 30px;
+        text-align: left;
+        
+    }
+
+
+    h1{
+        font-size: 3rem;
+    }
+
+
+
+    .ft-page{
+        padding: 50px 50px 50px -50px ;
+        margin-left: -90px;
+        text-align: left;
+    }
+
+    .welcome{
+        margin-left: -600px;
+    }
+
+    .distinct1, .distinct2{
+        flex-direction: column;
+    }
+   
+}
+
+@media (max-width: ){
+    .page2{
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .ft-page{
+        padding: 50px 50px 50px -50px ;
+        margin-left: -90px;
+        text-align: center;
+    }
+
+}
+
